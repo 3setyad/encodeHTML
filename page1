@@ -1,0 +1,1930 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="image/svg+xml; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" /><link rel="shortcut icon" href="https://www.msisurfaces.com/favicon.ico" type="image/x-icon" /><link href="/new-branding/css/msi-ui.min.css?v=1.3" rel="stylesheet" /><link href="/new-branding/css/shared.min.css?v=1.5" rel="stylesheet" /><link href="/new-branding/css/site.min.css?v=3.6" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500&amp;selection.subset=latin-ext" /><link href="/new-branding/css/mmenu/jquery.mmenu.min.css" rel="stylesheet" /><link href="/new-branding/css/mmenu/jquery.mmenu.dropdown.min.css?v=1.0" rel="stylesheet" />	
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/new-branding/js/mmenu/jquery.mmenu.min.js"></script>
+    <script src="/new-branding/js/mmenu/jquery.mmenu.dropdown.min.js"></script>
+    <script src="/new-branding/js/msishared.js?v=2.4"></script> 
+    <script src="https://www.msisurfaces.com/careers/Scripts/bootstrap.js"></script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-M2KXQ3');</script>
+ 
+    <style>
+        .lblpdf-light, .lblpdf-primary {
+            margin: 0 !important
+        }
+
+        .pseudo-btn .lblpdf-primary:before {
+            display: inline-block;
+            content: ' ';
+            vertical-align: middle;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-image: url(/new-branding/images/pdf-small-primary.svg);
+            height: 26px;
+            width: 26px;
+            position: relative;
+        }
+
+        .pseudo-btn .btn-primary:hover .lblpdf-primary:before {
+            background-image: url(/new-branding/images/pdf-small.svg);
+            height: 26px;
+            width: 26px
+        }
+
+        .product-page .lvt-sizes .specs-body-border-2x.lvt-accesspecs {
+            min-height: 109px;
+        }
+
+        .product-page .pseudo-btn .btn-primary i.fa-calculator {
+            font-size: 23px !important;
+        }
+
+        .mm-slideout {
+            z-index: 3
+        }
+
+        @media(max-width: 768px) {
+            .product-page .lvt-sizes .specs-body-border-2x .specs-label {
+                font-size: 14px;
+            }
+        }
+
+        @media(max-width:480px) {
+            .product-page .lvt-sizes .specs-body-border-2x.lvt-trimspecs {
+                min-height: 109px;
+            }
+
+            .product-page .lvt-sizes .specs-body-border-2x.lvt-accesspecs {
+                min-height: 134px;
+            }
+        }
+
+        @media(max-width:375px) {
+            .product-page .lvt-sizes .specs-body-border-2x.lvt-accesspecs {
+                min-height: 138px;
+            }
+        }
+
+        div.slcnCart {
+            display: inline-block;
+            position: absolute;
+            right: 4%;
+            top: 2%;
+            z-index: 1
+        }
+
+        .slcnCart input[type='checkbox'] + label.hearticon {
+            margin: 0
+        }
+
+            .slcnCart input[type='checkbox'] + label.hearticon::before {
+                content: ' ';
+                background-image: url('https://cdn.msisurfaces.com/images/miscellaneous/heart-white.svg');
+                width: 41px;
+                height: 41px;
+                display: block
+            }
+
+        .slcnCart input[type='checkbox']:checked + label.hearticon::before {
+            font-weight: 600;
+            background-image: url('https://cdn.msisurfaces.com/images/miscellaneous/heart-primary.svg');
+        }
+
+        .slcnCart input[type='checkbox'] {
+            display: none;
+        }
+
+        .slcnCart:hover, .slcnCart label.hearticon:hover {
+            cursor: pointer;
+        }
+
+        .slcn-popover {
+            display: none;
+            position: absolute;
+            bottom: -44px;
+            right: -2px;
+            text-align: center;
+        }
+
+            .slcn-popover .popover-bottom {
+                color: #ffffff;
+                background-color: #000000;
+                opacity: 0.9;
+                padding: 8px 10px;
+                width: 160px;
+            }
+
+                .slcn-popover .popover-bottom::before {
+                    position: absolute;
+                    top: -5px;
+                    width: 15px;
+                    height: 15px;
+                    border: 1px dotted #000;
+                    border-bottom: 0;
+                    border-right: 0;
+                    background: #000;
+                    transform: rotate(45deg);
+                    content: '';
+                    right: 12px;
+                }
+
+        .slcnCart input[type='checkbox'] + label.hearticon:hover {
+            cursor: pointer;
+        }
+
+            .slcnCart:hover .slcn-popover, .slcnCart input[type='checkbox'] + label.hearticon:hover + .slcn-popover {
+                display: block;
+            }
+
+        #osSlcnpopup .os-popup-body.pd-top {
+            padding: 51px 15px !important;
+        }
+
+        #osSlcnpopup .os-popup-body {
+            padding: 12px 13px !important;
+            background-color: #000 !important;
+            opacity: .9;
+            text-align: center;
+            color: #fff;
+        }
+
+            #osSlcnpopup .os-popup-body .ancCancel, #osSlcnpopup .os-popup-body .SaveNote {
+                cursor: pointer;
+            }
+
+        #osSlcnpopup.white-popup {
+            padding: 0 !important;
+        }
+
+        .divZeroslip label {
+            margin: 0;
+            margin-bottom: 5px;
+        }
+
+        .divZeroslip .popover {
+            z-index: 1;
+        }
+
+        .divZeroslip .popover-content {
+            top: 365px;
+            left: 1148px;
+            width: 327px;
+            height: 219px;
+            background: var(---ffffff) 0% 0% no-repeat padding-box;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            border: 0.5px solid #B2B2B2;
+            opacity: 1;
+        }
+
+        @media(max-width:480px) {
+            .divZeroslip .popover-content {
+                width: auto;
+                height: auto;
+            }
+        }
+
+        label[aria-describedby] {
+            width: 15px;
+            height: 15px;
+            top: -30px !important;
+        }
+
+        .divMore {
+            height: 100%;
+            background: rgba(0,0,0,.5);
+            height: 100%;
+        }
+
+        .lblHouzzCount {
+            color: #fff;
+            font-size: 42px;
+            line-height: 90px;
+        }
+
+        .mz-thumb-wrapper {
+            width: 90px;
+            height: 90px
+        }
+
+        @media(min-width:768px) {
+            .pseudo-btn div {
+                width: 80%;
+            }
+        }
+
+        @media(min-width:992px) {
+            .mz-thumb-wrapper {
+                margin: 25px 0 !important;
+                width: 70px;
+                height: 90px
+            }
+        }
+
+        @media(min-width:1200px) {
+            .mz-thumb-wrapper {
+                margin: 25px 0 !important;
+                width: 90px;
+                height: 90px
+            }
+        }
+
+        @media(min-width:1600px) {
+            .mz-thumb-wrapper {
+                width: 130px
+            }
+
+            .pseudo-btn div {
+                width: 48%;
+            }
+        }
+
+        .mcs-item a {
+            height: 100%;
+            display: block;
+        }
+
+        .pseudo-btn .lblgallery-primary:before {
+            background-image: url(https://cdn.msisurfaces.com/images/miscellaneous/gallery-icon.svg);
+            height: 26px;
+            width: 34px;
+            display: inline-block;
+            content: "";
+            vertical-align: top;
+            margin-right: 5px;
+            background-repeat: no-repeat
+        }
+
+        .pseudo-btn:hover .lblgallery-primary:before {
+            background-image: url(https://cdn.msisurfaces.com/images/miscellaneous/lblgallery-white.svg);
+        }
+
+        .MagicScroll-vertical .mcs-button-arrow-prev::before, .MagicScroll-vertical .mcs-button-arrow-next::before {
+            width: 24px !important;
+            height: 24px !important;
+            border-color: #000;
+        }
+
+        .magicscrollimgmargin .mcs-item {
+            margin-bottom: inherit;
+        }
+
+        @media(min-width:1600px) {
+           
+               /*.divDetail { min-height: 802px; }*/
+            #iframevideo.divDetail { min-height:unset; }
+            .mcs-item a { max-height: 120px!important; }
+          
+        }
+    </style>
+
+<meta name="keywords" content="Glass Stone blend, backsplash tile" /><meta name="description" content="Royal Oaks Blend Interlocking Pattern glass stone blend mosaic tile is comprised of cream and taupe glass tiles and rich marble to create an exotic look." /><link rel="canonical" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" /><link rel="alternate" hreflang="en-us" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" /><title>
+	Royal Oaks  Glass and Stone Backsplash Tile
+</title></head>
+<body>
+     <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2KXQ3"
+height="0" width="0" class="iframe_Home"></iframe></noscript>
+    <form method="post" action="/glass-stone-blend-designs/royal-oaks-blend-interlocking/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTYyMzA2MTg5OA9kFgJmD2QWAgIDEGRkFgICAw9kFnACBQ9kFgICAQ9kFgICAg8WAh4JaW5uZXJodG1sBTY8YSBocmVmPScvYmFja3NwbGFzaC10aWxlLyc+QmFja3NwbGFzaCAmIFdhbGwgVGlsZTwvYT5kAgYPZBYEAgEPFgIeB1Zpc2libGVoZAIDDw8WAh4EVGV4dAUpUm95YWwgT2FrcyBCbGVuZCBJbnRlcmxvY2tpbmcgUGF0dGVybiA4bW1kZAIHDxYCHgVzdHlsZQUNZGlzcGxheTpibG9ja2QCCQ9kFgICAQ8WAh4FY2xhc3MFdE1hZ2ljU2Nyb2xsIG1hZ2ljc2Nyb2xsaW1nbWFyZ2luIG1hZ2ljc2Nyb2xsaW1nbWFyZ2luIG1hZ2ljc2Nyb2xsaW1nbWFyZ2luIG1hZ2ljc2Nyb2xsaW1nbWFyZ2luIG1hZ2ljc2Nyb2xsaW1nbWFyZ2luZAIMDxYCHwFnFgICAQ8PFgIfAgWPAlJveWFsIE9ha3MgQmxlbmQgSW50ZXJsb2NraW5nIFBhdHRlcm4gZ2xhc3Mgc3RvbmUgYmxlbmQgbW9zYWljIHRpbGUgaXMgY29tcHJpc2VkIG9mIGNyZWFtIGFuZCB0YXVwZSBnbGFzcyB0aWxlcyBhbmQgcGFydG5lcmVkIHdpdGggcmljaCBFbXBlcmFkb3IgRGFyayBtYXJibGUgdG8gY3JlYXRlIGEgbHVzaCBhbmQgZXhvdGljIGxvb2suICBUaGlzIGludGVybG9ja2luZyBiYWNrc3BsYXNoIHRpbGUgaXMgcmVjb21tZW5kZWQgZm9yIGludGVyaW9yIHdhbGwgYXBwbGljYXRpb25kZAINDxYEHwAFtwE8YSBpZD0naGxzYW1wbGVQb3AnIGhyZWY9JyNvcy1wb3B1cCcgY2xhc3M9J2J0biBidG4tb3V0bGluZWQgYnRuLXByaW1hcnkgdmltZW8taW5saW5lIGFkZC10by1jYXJ0JyBkYXRhLWlkPSdUSERXRy1TR0wtUk9CSS04TU0nPjxsYWJlbCBjbGFzcz0nbGJsY2FydC1wcmltYXJ5Jz48L2xhYmVsPk9yZGVyIFNhbXBsZTwvYT4fAWdkAg8PFgQfBAUOZGlzcGxheS1pbmxpbmUfAAXJATxhIGNsYXNzPSdidG4gYnRuLW91dGxpbmVkIGJ0bi1wcmltYXJ5JyB0YXJnZXQ9J19ibGFuaycgaHJlZj0nL2ludmVudG9yeS9zZWxlY3Rvci9nbGFzcy1zdG9uZS1ibGVuZC1kZXNpZ25zL3JveWFsLW9ha3MtYmxlbmQtaW50ZXJsb2NraW5nLyc+PGxhYmVsIGNsYXNzPSdsYmxjaGVja2VkLXByaW1hcnknPjwvbGFiZWw+Q2hlY2sgSW52ZW50b3J5PC9hPmQCEQ8WBB8EBQ5kaXNwbGF5LWlubGluZR8ABaYBPGEgaWQ9J2hsRGVhbGVyTG9jYXRvcicgY2xhc3M9J2J0biBidG4tb3V0bGluZWQgYnRuLXByaW1hcnknIHRhcmdldD0nX2JsYW5rJyBocmVmPScvZGVhbGVyLWxvY2F0b3IvZmxvb3JpbmcvJz48bGFiZWwgY2xhc3M9J2xibG1hcC1wcmltYXJ5Jz48L2xhYmVsPkRlYWxlciBMb2NhdG9yPC9hPmQCEw8WAh8BaGQCFw8WBh8DBQ1kaXNwbGF5OmJsb2NrHwAFowE8aW1nIHNyYz0iL25ldy1icmFuZGluZy9pbWFnZXMvc2VlLW1vcmUtaWNvbi5zdmciPiBTRUUgTU9SRSBGUk9NIDxhIGhyZWY9Jy9wcm9kdWN0cy9uYXR1cmFsLXN0b25lLWNvbGxlY3Rpb25zL21hcmJsZS9lbXBlcmFkb3ItZGFyay8nPkVNUEVSQURPUiBEQVJLPC9hPiBDT0xMRUNUSU9OHwFnZAIZDxYCHwFoZAIaD2QWAgIBDw8WAh8CBQVCcm93bmRkAhsPFgIfAWhkAhwPFgIfAWhkAh0PFgIfAWhkAh4PFgIfAWhkAh8PFgIfAWhkAiAPFgIfAWhkAiEPFgIfAWhkAiIPFgIfAWhkAiMPFgIfAWhkAiQPFgIfAWcWAgIBDw8WAh8CBRIgU3RvbmUgR2xhc3MgQmxlbmRkZAIlDxYCHwFoZAImDxYCHwFoFgICAQ8PFgIfAgUFQ2hpbmFkZAInDxYCHwFoZAIoDxYCHwFnFgICAQ8PFgIfAgUMSW50ZXJsb2NraW5nZGQCKQ8WAh8BZxYCAgEPDxYCHwIFBE1JU0NkZAIqDxYCHwFoZAIrDxYCHwFoZAIsDxYCHwFoZAItDxYCHwFoZAIuDxYCHwFoZAIvDxYCHwFoZAIwDxYCHwFoZAIxDxYCHwFoZAIyDxYCHwFoZAIzDxYCHwFnFgICAQ8PFgIfAgUiR2xhc3MgU3RvbmUgQmxlbmQgLCBFbXBlcmFkb3IgRGFya2RkAjQPFgIfAWcWAgIBDw8WAh8CBQdQYXR0ZXJuZGQCNQ8WAh8BaGQCNg8WAh8BaGQCNw8WAh8BaGQCOA8WAh8BaGQCOQ8WAh8BaGQCOg9kFgQCAQ8PFgIfAWhkZAIDDw8WAh8CBRtHcmVlbmd1YXJkIEdvbGQsIFVTR0JDL0xFRURkZAI7DxYCHwFnFgICAQ8PFgIfAgUaMTJpbiB4IDEyaW4oMzA1bW0geCAzMDVtbSlkZAI8DxYCHwFoZAI9DxYCHwFoZAI+D2QWBgIBDxYCHwMFDWRpc3BsYXk6YmxvY2tkAgUPFgQeBGhyZWYFMS9iYWNrc3BsYXNoLXRpbGUtZ3VpZGUvP0l0ZW1JRD1USERXRy1TR0wtUk9CSS04TU0fAWdkAgkPFgIfAWhkAj8PFgIfAWhkAkAPFgIfAWhkAkEPFgIfAWhkAkIPFgIfAAWXBTxkaXYgY2xhc3M9J2NvbC14cy02IGNvbC1zbS00IGNvbC14bC02Jz48ZGl2IGNsYXNzPSdzcGVjcy1hcHAgc3BhY2UtYm90dG9tIHNwYWNlLXRvcCc+PGRpdiBjbGFzcz0nc3BlY3MtaGVhZGluZyc+PGI+Q291bnRlcnRvcHM8L2I+PC9kaXY+PGRpdiBjbGFzcz0nc3BlY3MtbGFiZWwnPlJlc2lkZW50aWFsOiA8Yj5ZZXM8L2I+PC9kaXY+PGRpdiBjbGFzcz0nc3BlY3MtbGFiZWwnPkNvbW1lcmNpYWw6IDxiPk5vPC9iPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3NwZWNzLWFwcCBzcGFjZS1ib3R0b20gc3BhY2UtdG9wJz48ZGl2IGNsYXNzPSdzcGVjcy1oZWFkaW5nJz48Yj5GbG9vcmluZzwvYj48L2Rpdj48ZGl2IGNsYXNzPSdzcGVjcy1sYWJlbCc+UmVzaWRlbnRpYWw6IDxiPk5vPC9iPjwvZGl2PjxkaXYgY2xhc3M9J3NwZWNzLWxhYmVsJz5Db21tZXJjaWFsOiA8Yj5ObzwvYj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdzcGVjcy1hcHAgc3BhY2UtYm90dG9tIHNwYWNlLXRvcCc+PGRpdiBjbGFzcz0nc3BlY3MtaGVhZGluZyc+PGI+V2FsbDwvYj48L2Rpdj48ZGl2IGNsYXNzPSdzcGVjcy1sYWJlbCc+UmVzaWRlbnRpYWw6IDxiPlllczwvYj48L2Rpdj48ZGl2IGNsYXNzPSdzcGVjcy1sYWJlbCc+Q29tbWVyY2lhbDogPGI+WWVzPC9iPjwvZGl2PjwvZGl2PjwvZGl2PmQCQw8WAh8BaGQCRA9kFgICAQ88KwAJAQAPFgQeCERhdGFLZXlzFgAeC18hSXRlbUNvdW50AgFkFgJmD2QWBAIBDxYCHghkYXRhLXJlbAUfRGVjb3JhdGl2ZSBNb3NhaWNzICYgV2FsbCBUaWxlcxYEZg8VAR9EZWNvcmF0aXZlIE1vc2FpY3MgJiBXYWxsIFRpbGVzZAIBD2QWAmYPFQEfRGVjb3JhdGl2ZSBNb3NhaWNzICYgV2FsbCBUaWxlc2QCAw88KwAJAQAPFgQfBhYAHwcCAWQWAmYPZBYCAgEPZBYEZg8VBFhodHRwczovL2Nkbi5tc2lzdXJmYWNlcy5jb20vaW1hZ2VzL21vc2FpY3Mvcm95YWwtb2Frcy1ibGVuZC1pbnRlcmxvY2tpbmctcGF0dGVybi04bW0uanBnO1BhdHRlcm48cCBjbGFzcz12aXNpYmxlLXhzLWJsb2NrPklEIzpUSERXRy1TR0wtUk9CSS04TU08L3A+Y2h0dHBzOi8vY2RuLm1zaXN1cmZhY2VzLmNvbS9pbWFnZXMvbW9zYWljcy90aHVtYm5haWxzL3JveWFsLW9ha3MtYmxlbmQtaW50ZXJsb2NraW5nLXBhdHRlcm4tOG1tLmpwZylSb3lhbCBPYWtzIEJsZW5kIEludGVybG9ja2luZyBQYXR0ZXJuIDhtbWQCAQ9kFhYCAQ9kFgJmDxUBB1BhdHRlcm5kAgMPZBYCZg8VASlSb3lhbCBPYWtzIEJsZW5kIEludGVybG9ja2luZyBQYXR0ZXJuIDhtbWQCBA8VARJUSERXRy1TR0wtUk9CSS04TU1kAgUPFgIfBAULc3BlY3MtbGFiZWwWAmYPFQEETUlTQ2QCBw9kFgJmDxUBAGQCCQ9kFgJmDxUBAGQCCw9kFgJmDxUBAGQCDQ9kFgJmDxUBAGQCDw9kFgJmDxUBAGQCEQ9kFgJmDxUBKVJveWFsIE9ha3MgQmxlbmQgSW50ZXJsb2NraW5nIFBhdHRlcm4gOG1tZAITDxYCHgdkYXRhLWlkBRJUSERXRy1TR0wtUk9CSS04TU1kAkUPFgIfAwUNZGlzcGxheTpub25lO2QCSw8WAh8BZxYEAgEPPCsACQBkAgMPZBYCAgEPFgIfBQUdL2luc3BpcmF0aW9uL2dhbGxlcnkva2l0Y2hlbi8WBAIBDxYCHwFnZAIDDxYCHwFoZGSiTihdrxkrEdmcJABI+afiNZ0JmzG9mV9b3tXMxbDC1w==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BA99664C" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAbIU4eXf0ayXEZM4PKZ8F826VVsSNLTT33hX1RPc+E8XsULgzrqpUnRqLw+Bdih50AzKDFOxsXxxgiJF25C+0Ud3f6Qnk5zVIh2FXapNdGr0+BqCMZFMB4Q/PxQXx+9jS7BxYEuEZ/CluX7zx8XuSSlJcHMF/1B94PbNzNVqMRedA==" />
+</div>
+        <div>
+            <header id="msiHeader" class="cust-hidden">
+                
+
+<div class="container container-xxl">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="brand-header">
+                <div class="navbar-left">
+                    <a href="/" class="navbar-brand">
+                        <img src="https://cdn.msisurfaces.com/images/svg/msi-logo.svg" alt="logo" />
+                    </a>
+                </div>
+                <div class="nav-links navbar-right">
+                    <ul class="nav navbar-nav" id="navLogin">
+                         <li class="hidden-xs hidden-sm"><a href="/careers/" target="_blank" class="btn btn-outlined btn-primary">CAREERS</a></li>
+                        <li class="hidden-xs hidden-sm"><a href="/vendor-portal/" target="_blank" class="btn btn-outlined btn-primary">VENDOR</a></li>
+                        <li class="hidden-xs hidden-sm"><a href="/customer-portal/" target="_blank" class="btn btn-outlined btn-primary">My MSI</a></li>
+                        <li class="hidden-xs hidden-sm"><a href="javascript:void(Tawk_API.toggle())" class="btn btn-outlined btn-primary">CHAT NOW</a></li>
+                        <li class="visible-sm hidden dropdown">
+                            <button id="navbarDropdown" type="button" class="glyphicon glyphicon-menu-hamburger hmbrgr-mbl visible-sm hidden" data-toggle="dropdown"></button>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a href="/careers/" target="_blank" class="btn btn-outlined btn-primary">CAREERS</a>
+                                </li>
+                                <li>
+                                    <a href="/vendor-portal/" target="_blank" class="btn btn-outlined btn-primary">VENDOR</a>
+                                </li>
+                                <li>
+                                    <a href="/customer-portal/" target="_blank" class="btn btn-outlined btn-primary">My MSI</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-outlined btn-primary">CHAT NOW</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="lidivider hidden-xs"></li>
+                        <li>
+                            <a href="/shoppingcart.aspx" target="_blank" class="cartbtn-header" style="padding-right:7px">
+                                 <span id="Header_lblCnt" class="badge badge-warning"></span>
+                                <img src="https://cdn.msisurfaces.com/images/svg/shopping-cart.svg" alt="Cart" />
+                                <span class="SampleSpan">SAMPLES</span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/favorites/" target="_blank" class="cartbtn-header favbtn" style="padding-left:7px">
+                                <span id="Header_lblFavCnt" class="badge badge-warning"></span>
+                                <img src="https://cdn.msisurfaces.com/images/miscellaneous/heart-white-sm.svg" alt="Favorite Cart" />
+                                <span class="SampleSpan">FAVORITES</span>
+                            </a>
+                        </li>
+                         <li class="lidivider visible-xs"></li>
+                        <li class="visible-xs">
+                            <a href="#msi-mmenu" title="product-menu" class="glyphicon glyphicon-menu-hamburger navbar-toggle toggle-menu hmbrgr-mbl visible-xs" data-toggle="collapse" data-target=".navbar-collapse">MENU</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-box navbar-right">
+                    <div id="srcBox" class="input-group text-center">
+                        <input type="text" id="txtSearch" class="form-control" placeholder="Search Products" aria-label="Search" />
+                        <span class="input-group-btn">
+                            <button id="btnSearch" class="btn btn-primary glyphicon glyphicon-search" type="button"></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="container container-xxl">
+    <div class="row">
+        <div class="navmain">
+
+            <nav id="msi-mmenu" class="navbar navbar-default">
+                <ul id="msi-navbar" class="nav navbar-nav hidden">
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li>
+                                <a href="/flooring-tile/" target="_self">Flooring</a>
+                            </li>
+                            <li>
+                                <a href="/countertops/" target="_self">Countertops</a>
+                            </li>
+                            <li><a href="/backsplash-tile/" target="_self">Backsplash & Wall Tile</a> </li>
+                            <li><a href="/hardscape/" target="_self">Hardscaping</a> </li>
+                            <li><a href="/kitchen-sinks/" target="_self">Sinks</a> </li>
+							<li><a href="/faucets/" target="_self">Faucets</a> </li>
+                            <li><a href="/products/natural-stone-collections/" target="_self">Natural Stone Collections</a></li>
+                            <li><a href="/new-products/" target="_self">New Products</a> </li>
+							<li><a class="li-glyph-anc" href="/product-search/" target="_self"> Product Search</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Tools</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li>
+                                <a href="/room-visualizer-tools/" target="_self">Visualizers</a>
+                            </li>
+
+                            <li><a href="/backsplash-tile-guide/" target="_self">Backsplash Tile Guide</a> </li>
+                            <li><a href="/slabinventory/search/msi/" target="_self">Preview Slabs in Stock</a> </li>                         
+                            <li><a href="/product-search/imagesearch/" target="_self">Image Search Tool</a> </li>
+                            <li><a href="/patterned-floor-tile-tool/" target="_self">Floor Pattern Selector</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inspiration</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li><a href="/helloinspiration/" target="_self">Home Trends & Inspiration</a></li>
+                            <li><a href="/top-5-design-trends/" target="_self">Top 5 Design Trends</a></li>
+                            <li><a href="/blogs/" target="_self">Product Blog</a></li>
+                            <li><a href="/inspiration-gallery/" target="_self">Inspiration Gallery</a></li>
+                            <li><a href="/helloinspiration/#featured-trends" target="_blank">Featured Trends</a></li>
+                            <li><a href="/countertop-quiz/" target="_blank">Find Your Countertop Quiz</a></li>
+                            <li><a href="/flooring-quiz/" target="_blank">Find Your Flooring Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li><a href="/msivideos.aspx" target="_self">Videos </a></li>
+                            <li><a href="/brochures.aspx" target="_self">Catalogs</a> </li>
+                            <li><a href="/flyers.aspx" target="_self">Flyers</a> </li>
+                            <li><a href="/countertop-installation-guide/" target="_self">Countertop Buying Guide</a> </li>
+                            <li><a href="/merchandising/" target="_self">Merchandising</a> </li>
+                            <li><a href="/news/industry-organizations.aspx" target="_self">Industry Links</a> </li>
+                            <li><a href="/radon.aspx" target="_self">Radon</a> </li>
+                            <li><a href="/glossary.aspx" target="_self">Glossary</a> </li>
+                            <li>
+                                <a href="/faq.aspx" target="_self">FAQ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For The Trade</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li><a href="/msi-retailer.aspx" target="_self">Become a Retailer</a> </li>
+                            <li><a href="/customer-portal/" target="_blank">My MSI - Customer Login</a> </li>
+                            <li><a href="/room-scene-visualizer-register/" target="_self">Industry Tools</a> </li>
+                            <li><a href="/linktomsi.aspx" target="_self">Link to Us</a></li>
+                            <li><a href="/slabphotogallery.aspx" target="_self">Slab Photo Gallery</a> </li>
+                            <li><a href="/sds-informations.aspx" target="_self">SDS Information</a> </li>
+                            <li><a href="/silica-safety-resources/" target="_self">Silica Safety Resources</a> </li>
+                            <li><a href="/vendor-portal/" target="_blank">Vendor Login</a> </li>
+                            <li><a href="/corporate/distribution-channels.aspx">Channels We Serve</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                        <ul class="dropdown-menu animate slideIn">
+                            <li><a href="/locations/" target="_self">Locations</a> </li>
+                            <li><a id="ancContact" href="/contact-us/" target="_self">Contact Us</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="/dealer-locator/" target="_self">Dealer Locator</a></li>
+                     <li class="mob-show visible-xs"><a href="/careers/" target="_blank">Careers</a></li>
+                    <li class="mob-show visible-xs"><a href="/vendor-portal/" target="_blank">Vendor Login</a></li>
+                    <li class="mob-show visible-xs"><a href="/customer-portal/" target="_blank">My MSI - Customer Login</a></li>
+                    <li class="more dropdown hidden-xs">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                        <ul id="overflow" class="dropdown-menu animate slideIn"></ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+				 <div class="hero-container">
+                    
+                </div>
+            </header>
+            
+    <script src="/new-branding/js/magiczoom/magiczoomplus.js"></script>
+    <link href="/new-branding/js/magiczoom/magiczoomplus.css" rel="stylesheet" />
+    <script src="/new-branding/js/magiczoom/magicscroll.js" defer></script>
+    <link href="/new-branding/js/magiczoom/magicscroll.css" rel="stylesheet" />
+    <script type="text/javascript">
+        window.onload = function (event) {
+            var height = $('html').height();
+            window.parent.postMessage(["setHeight", height], "*");
+        };
+        window.onresize = function (event) {
+            var height = $('html').height();
+            window.parent.postMessage(["setHeight", height], "*");
+        };
+        $(document).ready(function () {
+
+            var isInIframe = (parent !== window),
+                parentUrl = null;
+            if (isInIframe) {
+                $('.cust-hidden').addClass('hidden');
+            }
+            else {
+                $('.cust-hidden').removeClass('hidden');
+            }
+        });
+    </script>
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnColorID" id="ContentPlaceHolder1_hdnColorID" value="2120" />
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnProductGroup" id="ContentPlaceHolder1_hdnProductGroup" />
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdfImgDownload" id="ContentPlaceHolder1_hdfImgDownload" value="Detail" />
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnScreenwidth" id="ContentPlaceHolder1_hdnScreenwidth" />
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnCV" id="ContentPlaceHolder1_hdnCV" value="mosaic" />
+    <input id="hdnImgPath" type="hidden" />
+    <input id="hdnrelPath" type="hidden" />
+    <img id="imgrsDummy" alt="" style="display: none" />
+   
+    <div class="main-wrapper product-page">
+        <div class="container">
+            <div class="row cust-hidden">
+                <div id="ContentPlaceHolder1_divSitemap">
+                    <div class="container-wrapper">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ol id="ContentPlaceHolder1_navSitemap" class="breadcrumb">
+                                <li><a href='/'>Home</a></li><li><a href='/backsplash-tile/'>Backsplash & Wall Tile</a></li><li><a href='/mosaics/decorative-blends-mosaics/'>Decorative Blends</a></li><li class="active">Royal Oaks Blend Interlocking Pattern 8mm</li></ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="ContentPlaceHolder1_stickyMenu" class="sticky-menu clearfix space-bottom-2x">
+                <div class="text-center">
+                    
+                    <h1 class="h1lblheader">
+
+
+                        <span id="ContentPlaceHolder1_lblHeader">Royal Oaks Blend Interlocking Pattern 8mm</span></h1>
+                    <div class="submenu-wrapper">
+                        <a class="btn btn-prdmenu">Jump To <span class="caret"></span></a>
+                        <ul id="ContentPlaceHolder1_navJumpMenu" class="nav-submenu">
+                            <li><a href="#ss-about">About</a></li>
+                            <li><a href="#ss-realprojects" id="ContentPlaceHolder1_realprojects" class="hidden">Real Projects</a></li>
+                            <li id="similar-styles"><a href="#ss-similar" id="similarstyles">Similar Styles</a></li>
+
+                            <li id="item-sizes"><a href="#ss-sizes">Sizes</a></li>
+                            <li><a href="#ss-coordinate-backsplash" class="co-ordinte-backsplash hide">COORDINATING MATERIALS</a></li>
+
+                        <li><a href='#ss-downloads'>Downloads</a></li></ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="ss-about" class="ss-tracked"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-7 col-xl-7 space-bottom">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-2">
+                            <div id="containerMosaicDetail" style="overflow: hidden; display: none;">
+                            </div>
+                            <div>
+                                <div id="divSocialtp" class="text-center">
+                                    <a id="pinit" data-pin-do="buttonPin" href="javascript:void(0)" title="Pinit">
+                                        <img src='https://cdn.msisurfaces.com/images/social-media/pinit-icon.svg' title="Pin It" alt="pinit icon" /></a><a id="Houzz" href="javascript:void(0)" title="Share on Houzz"><img src='https://cdn.msisurfaces.com/images/social-media/houzz-icon.svg' title="Share on Houzz" alt="Houzz icon" /></a><a id="ancFacebook" href="javascript:void(0)" title="Share on Facebook"><img src='https://cdn.msisurfaces.com/images/social-media/facebook-icon.svg' alt="facebook icon" /></a><a id="ancTwitter" href="javascript:void(0)" title="Share on Twitter"><img src='https://cdn.msisurfaces.com/images/social-media/twitter-icon.svg' alt="twitter icon" /></a>
+                                </div>
+
+                                <div class="divDetail hide" id="divDetail">
+                                    <a class="MagicZoom" id="mzpProdGallery" title="detail" data-options="zoomMode: off; zoomOn: click;zoomCaption:top;">
+                                        <img />
+
+                                    </a>
+                                    <div id="ContentPlaceHolder1_overlayDetail" class="overlay-texttop" style="display:block">
+                                        <b id="overlaytext"></b>
+                                    </div>
+
+                                </div>
+                                <div class='slcnCart hidden'>
+                                    <div class='cust-hidden'>
+                                        <a>
+                                            <input type='checkbox' value='cb-slcn' id='cb_slcn' name='cb-slcn' /><label class="hearticon" for='cb_slcn'></label></a>
+                                        <div class="slcn-popover">
+                                            <div class="popover-bottom">Add to Favorites</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="iframevideo" class="divDetail">
+                                    <iframe id="ContentPlaceHolder1_videoframe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                                </div>
+                                <img id="imgDetail" class="hidden" />
+
+                            </div>
+
+                        </div>
+                        <div id="ContentPlaceHolder1_tgthumb" class="col-xs-12 col-sm-12 col-md-2 col-md-pull-10 tg-thumb space-top">
+                            <div id="ContentPlaceHolder1_msProdGallery" class="MagicScroll magicscrollimgmargin magicscrollimgmargin magicscrollimgmargin magicscrollimgmargin magicscrollimgmargin" data-options="orientation:vertical;width:100%;height:520;items:3;loop:off;lazyLoad:true;">
+                            <a href="https://cdn.msisurfaces.com/images/mosaics/royal-oaks-blend-interlocking-pattern-8mm.jpg" data-zoom-id="mzpProdGallery" title="Detail" data-image="https://cdn.msisurfaces.com/images/mosaics/royal-oaks-blend-interlocking-pattern-8mm.jpg"><img class='lazy' data-src=https://cdn.msisurfaces.com/images/mosaics/royal-oaks-blend-interlocking-pattern-8mm.jpg alt ='Royal Oaks Blend Interlocking Pattern 8mm Decorative Mosaic Tile'/>Detail</a><a href="https://cdn.msisurfaces.com/images/mosaics/variations/royal-oaks-blend-interlocking-pattern-8mm.jpg" data-zoom-id="mzpProdGallery" title="Variation" data-image="https://cdn.msisurfaces.com/images/mosaics/variations/royal-oaks-blend-interlocking-pattern-8mm.jpg"><img class='lazy' data-src=https://cdn.msisurfaces.com/images/mosaics/variations/royal-oaks-blend-interlocking-pattern-8mm.jpg alt ='Royal Oaks Blend Interlocking Pattern 8mm'/>Variation</a><a href="https://player.vimeo.com/video/206102479" title="Video" id="ancVideo" class="popup-vimeo" rel="https://player.vimeo.com/video/206102479"><img class='lazy' data-src=https://cdn.msisurfaces.com/images/mosaics/videos/royal-oaks-blend-interlocking-pattern-8mm.jpg alt='Royal Oaks Blend Interlocking Pattern 8mm'/>Video</a><a href="https://cdn.msisurfaces.com/images/roomscenes/medium/royal-oaks-blend-interlocking-pattern-8mm-a.jpg" data-zoom-id="mzpProdGallery" title="Default Scene" data-image="https://cdn.msisurfaces.com/images/roomscenes/medium/royal-oaks-blend-interlocking-pattern-8mm-a.jpg"><img class='lazy' data-src=https://cdn.msisurfaces.com/images/roomscenes/thumb/royal-oaks-blend-interlocking-pattern-8mm-a.jpg alt ='Royal Oaks Blend Interlocking Pattern 8mm A'/>Room Scene</a><a href="https://cdn.msisurfaces.com/images/roomscenes/medium/absolute-black-granite_royal-oaks-blend-interlocking-pattern-8mm-a.jpg" data-zoom-id="mzpProdGallery" title="Room Scene" data-image="https://cdn.msisurfaces.com/images/roomscenes/medium/absolute-black-granite_royal-oaks-blend-interlocking-pattern-8mm-a.jpg"><img class='lazy' data-src=https://cdn.msisurfaces.com/images/roomscenes/thumb/absolute-black-granite_royal-oaks-blend-interlocking-pattern-8mm-a.jpg alt ='Absolute Black Granite_Royal Oaks Blend Interlocking Pattern 8mm A'/>Room Scene</a></div>
+                        </div>
+                        <div id="ContentPlaceHolder1_mzHouzzGallery" class="hidden">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-xl-5 space-bottom">
+                    
+                    <div id="ContentPlaceHolder1_divProductDescription" class="padding-all space-bottom">
+                        <div><b>Description:</b></div>
+                        <span id="ContentPlaceHolder1_lblComments">Royal Oaks Blend Interlocking Pattern glass stone blend mosaic tile is comprised of cream and taupe glass tiles and partnered with rich Emperador Dark marble to create a lush and exotic look.  This interlocking backsplash tile is recommended for interior wall application</span>
+                    </div>
+                    <div class="cust-hidden">
+                        <div class="text-center pseudo-btn">
+                            <div id="ContentPlaceHolder1_divOrderSample" class="display-inline"><a id='hlsamplePop' href='#os-popup' class='btn btn-outlined btn-primary vimeo-inline add-to-cart' data-id='THDWG-SGL-ROBI-8MM'><label class='lblcart-primary'></label>Order Sample</a></div>
+							<div id="ContentPlaceHolder1_divInventory" class="display-inline hidden"></div>
+							<div id="ContentPlaceHolder1_divRealTimeInventory" class="display-inline"><a class='btn btn-outlined btn-primary' target='_blank' href='/inventory/selector/glass-stone-blend-designs/royal-oaks-blend-interlocking/'><label class='lblchecked-primary'></label>Check Inventory</a></div>
+                            <div id="ContentPlaceHolder1_DivCollectionVideo" class="display-inline hidden"></div>                           
+                            <div id="ContentPlaceHolder1_divDealerLocator" class="display-inline"><a id='hlDealerLocator' class='btn btn-outlined btn-primary' target='_blank' href='/dealer-locator/flooring/'><label class='lblmap-primary'></label>Dealer Locator</a></div>
+                            <div id="ContentPlaceHolder1_divInstallVideo" class="display-inline hidden"></div>
+
+                            
+                            
+                            <div id="divPC" class="display-inline hidden"></div>
+
+
+                            <div id="ContentPlaceHolder1_divVisualizer" class="display-inline hidden">
+                                
+                            </div>
+                            <div id="ContentPlaceHolder1_divdownlodSpecs" class="display-inline hidden">
+
+                                <a class='btn btn-outlined btn-primary' href="https://cdn.msisurfaces.com/files/specs-guide/vanity-top-specs.pdf" target="_blank">
+                                    <label class="lblpdf-primary"></label>
+                                    Download Specifications</a>
+
+                            </div>
+                            <div id="ContentPlaceHolder1_divStileGallery" class="display-inline hidden">
+                                <a class='btn btn-outlined btn-primary' href="/stile/room-scene-gallery/">
+                                    <label class="lblgallery-primary"></label>
+                                    STILE GALLERY</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div id="ContentPlaceHolder1_divSeeMore" class="div-see-more-sc space-bottom" style="display:block"><img src="/new-branding/images/see-more-icon.svg"> SEE MORE FROM <a href='/products/natural-stone-collections/marble/emperador-dark/'>EMPERADOR DARK</a> COLLECTION</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-xl-5 pull-right space-bottom">
+                    <div class="ps-tabs">
+                        <ul class="nav nav-center nav-tabs">
+                            <li data-tab="tab-1" class="active"><a href="javascript:void(0)">Specs</a></li>
+                            <li id="ContentPlaceHolder1_app" data-tab="tab-2"><a href="javascript:void(0)">Applications</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab-1">
+                                
+                                <div id="ContentPlaceHolder1_divPrimColor" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Primary Color(s)</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblPrimaryColors">Brown</span>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                
+                                
+
+
+                                
+
+                                
+                                
+
+                                
+
+
+                                
+                                <div id="ContentPlaceHolder1_divMaterialType" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Material Type</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblStoneType"> Stone Glass Blend</span>
+                                    </div>
+                                </div>
+                                
+                                
+
+
+                                
+                                <div id="ContentPlaceHolder1_divStyle" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Style</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblStyle">Interlocking</span>
+                                    </div>
+                                </div>
+                                <div id="ContentPlaceHolder1_divFinish" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Available Finishes</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblFinishes">MISC</span>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+
+                                
+
+                                
+                                
+                                
+                                
+
+
+
+
+                                <div id="ContentPlaceHolder1_divcollection" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Collection</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblcollection">Glass Stone Blend , Emperador Dark</span>
+                                    </div>
+
+                                </div>
+                                <div id="ContentPlaceHolder1_divSize" class="col-xs-6 col-sm-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Size</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblsize">Pattern</span>
+                                    </div>
+
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                <div id="ContentPlaceHolder1_divEnvironmental" class="col-xs-6 col-sm-6 space-bottom-2x space-top">
+                                    <div class="specs-heading">
+                                        <span>Environmental</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblGreen">Greenguard Gold, USGBC/LEED</span>
+                                    </div>
+                                </div>
+                                <div id="ContentPlaceHolder1_divSheetsize" class="col-xs-6 col-sm-6 space-bottom-2x space-top">
+                                    <div class="specs-heading">
+                                        <span>Sheet Size</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        <span id="ContentPlaceHolder1_lblsheetsize">12in x 12in(305mm x 305mm)</span>
+                                    </div>
+
+                                </div>
+                                
+                                
+                                <div id="ContentPlaceHolder1_divAdditionalResources" class="col-xs-6 col-sm-6 col-md-6 space-bottom space-top">
+                                    <div class="specs-heading">
+                                        <span>Additional Resources</span>
+                                    </div>
+                                    <div class="specs-label">
+                                        
+                                    </div>
+                                    <div class="specs-label">
+                                        
+                                    </div>
+                                    <div class="specs-label">
+                                        <a href="/backsplash-tile-guide/?ItemID=THDWG-SGL-ROBI-8MM" id="ContentPlaceHolder1_lnkbtnBackSplash">Concept Designs</a>
+                                    </div>
+                                    <div class="specs-label">
+                                        <a id="ContentPlaceHolder1_hyplnkDisclaimer" href="/copyright-disclaimer.aspx" target="_Blank">Disclaimer</a>
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            <div class="tab-pane" id="tab-2">
+                                <div id="ContentPlaceHolder1_applications"><div class='col-xs-6 col-sm-4 col-xl-6'><div class='specs-app space-bottom space-top'><div class='specs-heading'><b>Countertops</b></div><div class='specs-label'>Residential: <b>Yes</b></div><div class='specs-label'>Commercial: <b>No</b></div></div><div class='specs-app space-bottom space-top'><div class='specs-heading'><b>Flooring</b></div><div class='specs-label'>Residential: <b>No</b></div><div class='specs-label'>Commercial: <b>No</b></div></div><div class='specs-app space-bottom space-top'><div class='specs-heading'><b>Wall</b></div><div class='specs-label'>Residential: <b>Yes</b></div><div class='specs-label'>Commercial: <b>Yes</b></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="sstyles" class="similar-style">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="ss-similar" class="ss-tracked">
+                            <h3>Similar Styles</h3>
+                            <hr class="hr" />
+                        </div>
+                        <br />
+                        <div class="owl-carousel similarstyles">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="ContentPlaceHolder1_sizes" class="sizes">
+                    <div class="col-xs-12">
+                        <div id="ss-sizes" class="ss-tracked">
+                            <h3>Sizes</h3>
+                            <hr class="hr" />
+                        </div>
+                    </div>
+                    <table id="ContentPlaceHolder1_outerDataList" cellspacing="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                            <div id="ContentPlaceHolder1_outerDataList_divTitle_0" class="col-xs-12" data-rel="Decorative Mosaics &amp; Wall Tiles">
+                                <div class="Decorative Mosaics & Wall Tiles_Sizes">
+                                    <h4><a id="ContentPlaceHolder1_outerDataList_ancCategory_0">Decorative Mosaics & Wall Tiles</a></h4>
+                                    <hr />
+                                    
+                                </div>
+                            </div>
+                            <span id="ContentPlaceHolder1_outerDataList_innerDataList_0" class="wcol-container"><span>
+                                    <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divInrDl_0" class="col-xs-6 col-sm-4 col-md-3 col-xl-2 space-bottom space-top text-left">
+                                        <a href='https://cdn.msisurfaces.com/images/mosaics/royal-oaks-blend-interlocking-pattern-8mm.jpg' title='Pattern<p class=visible-xs-block>ID#:THDWG-SGL-ROBI-8MM</p>' class="MagicZoom" data-gallery="gallery" data-options="hint:false; zoomMode:off;" data-mobile-options="hint:false; zoomMode:off;">
+                                            <img class="img-responsive" src='https://cdn.msisurfaces.com/images/mosaics/thumbnails/royal-oaks-blend-interlocking-pattern-8mm.jpg' alt="Royal Oaks Blend Interlocking Pattern 8mm" style="max-height: 255px; max-width: 255px;" /></a>
+                                        <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divSpcsBorder_0" class="specs-body-border-2x">
+                                            <div class="specs-label"><a id="ContentPlaceHolder1_outerDataList_innerDataList_0_ancTileSize_0" class="nohref" target="_blank">Pattern</a></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divItemDesc_0" class="specs-label hide"><b>Royal Oaks Blend Interlocking Pattern 8mm</b></div>
+                                            <div class="specs-label text-nowrap">ID#: <b>THDWG-SGL-ROBI-8MM</b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divSpecFinish_0" class="specs-label">Finish: <b>MISC</b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divNumberofSinks_0" class="specs-label hide">Number Of Sinks: <b></b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divSpecsPatternSize_0" class="specs-label hide">Pattern Sizes: <b></b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divThick_0" class="specs-label hide">Thickness: <b></b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divEdge_0" class="specs-label hide">Edge: <b></b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divDesc_0" class="specs-label hide">Description: <b></b></div>
+                                            <div id="ContentPlaceHolder1_outerDataList_innerDataList_0_divPebblesdesc_0" class="specs-label hide">Description: <b>Royal Oaks Blend Interlocking Pattern 8mm</b></div>
+                                            <a href="#os-popup" id="ContentPlaceHolder1_outerDataList_innerDataList_0_hlSample_0" class="specs-link cust-hidden add-to-cart vimeo-inline" data-id="THDWG-SGL-ROBI-8MM">Add to Cart</a>
+                                        </div>
+                                    </div>
+                                </span></span>
+                        </td>
+	</tr>
+</table>
+                    <div class="col-xs-12">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="sscoordinatebacksplash" class="similar-style coordinate-backsplash hide">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="ss-coordinate-backsplash" class="ss-tracked">
+                            <h3>COORDINATING MATERIALS</h3>
+                            <hr class="hr" />
+                        </div>
+                        <br />
+                        <div class="owl-carousel backsplash-items">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="gallery">
+                    <div class="col-xs-12">
+                        <div id="ss-gallery" class="ss-tracked">
+                            <h3>Gallery</h3>
+                            <hr class="hr" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xl-offset-2 space-top">
+                        <ul id="ContentPlaceHolder1_navGallery" class="nav nav-center nav-tabs" style="display:none;">
+                        </ul>
+                        <div id="divSocialbm" class="text-center cust-hidden">
+                            <a id="ancPinitbtm" data-pin-do="buttonPin" href="javascript:void(0)" title="Pinit">
+                                <img class="lazy" data-src='https://cdn.msisurfaces.com/images/social-media/pinit-icon.svg' title="Pin It" alt="pinit icon" /></a>
+                            <a id="ancHouzzbtm" href="javascript:void(0)" title="Share on Houzz">
+                                <img class="lazy" data-src='https://cdn.msisurfaces.com/images/social-media/houzz-icon.svg' title="Share on Houzz" alt="houzz icon" /></a>
+                            <a id="ancFacebookbtm" href="javascript:void(0)" title="Share on Facebook">
+                                <img class="lazy" data-src='https://cdn.msisurfaces.com/images/social-media/facebook-icon.svg' alt="facebook icon" /></a>
+                            <a id="ancTwitterbtm" href="javascript:void(0)" title="Share on Twitter">
+                                <img class="lazy" data-src='https://cdn.msisurfaces.com/images/social-media/twitter-icon.svg' alt="twitter icon" /></a>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane tab-scene" id="tabScene">
+                                <div id="containerRS" style="overflow: hidden;">
+                                    <a class="MagicZoom" id="mzpGallery" data-options="zoomMode: off; zoomOn: click">
+                                        <img /></a>
+                                </div>
+                                <div class="ms-wrapper">
+                                    <div id="ContentPlaceHolder1_msGallery" class="MagicScroll" data-options="items:[[350,2],[480,3],[720,4],[940,5],[1020,6]];height:90;loop:off;lazyLoad:true;"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane tab-houzz" id="tabHouzz">
+                                <div class="space-bottom text-center">
+                                    <a class="MagicZoom" id="mzpHouzz" data-options="zoomMode: off; expand: off;">
+                                        <img /></a>
+                                </div>
+                                <div class="ms-wrapper">
+                                    <div id="ContentPlaceHolder1_msHouzz" class="MagicScroll" data-options="items:[[350,2],[480,3],[720,4],[940,5],[1020,6]];height:90;loop:off;lazyLoad:true;"></div>
+                                </div>
+                                <div class="houzzinfo">
+                                    <i>The product gallery images provided by Houzz are examples of product use only to help visualize different options. MSI makes no claims or representations regarding these images and does not represent these products were either purchased from MSI or necessarily match the product presented</i>
+                                </div>
+                            </div>
+                            <div class="tab-pane tab-vartn" id="tabVartn">
+                                <div class="space-bottom text-center">
+                                    <a class="MagicZoom" id="mzpVariation" data-options="zoomMode: off; zoomOn: click">
+                                        <img /></a>
+                                </div>
+                                <div class="ms-wrapper">
+                                    <div id="ContentPlaceHolder1_msVariation" class="MagicScroll" data-options="items:[[350,2],[480,3],[720,4],[940,5],[1020,6]];height:90;loop:off;lazyLoad:true;"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane tab-vartn" id="tabFace">
+                                <div class="space-bottom text-center">
+                                    <a class="MagicZoom" id="mzpFace" data-options="zoomMode: off; zoomOn: click">
+                                        <img /></a>
+                                </div>
+                                <div class="ms-wrapper">
+                                    <div id="ContentPlaceHolder1_msFace" class="MagicScroll" data-options="items:[[350,2],[480,3],[720,4],[940,5],[1020,6]];height:90;loop:off;lazyLoad:true;"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane tab-vartn" id="tabbookmatch">
+                                <div class="space-bottom text-center">
+                                    <a class="MagicZoom" id="mzpBookMatch" data-options="zoomMode: off; zoomOn: click">
+                                        <img /></a>
+                                </div>
+                                <div class="ms-wrapper">
+                                    <div id="ContentPlaceHolder1_msBookMatch" class="MagicScroll" data-options="items:[[350,2],[480,3],[720,4],[940,5],[1020,6]];height:90;loop:off;lazyLoad:true;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="divHouzzHeader" style="text-align: center; display: none; margin: 20px 0;">
+                            <span id="houzzTitle" style="font-size: 12px; float: left;">Click on image To view more info</span><br />
+                            <a id="ancHouzz" target="_blank">
+                                <img border="0" title="click to view more info" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="ContentPlaceHolder1_download">
+                    <div class="col-xs-12">
+
+                        <div id="ss-downloads" class="ss-tracked">
+                            <h3>Downloads & Resources</h3>
+                            <hr class="hr" />
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div class="col-xs-6 col-sm-6 col-md-3  space-bottom space-top">
+                        <div class="overlay-middle">
+                            <div id="ContentPlaceHolder1_IDGallary">
+                                <a href="/inspiration/gallery/kitchen/" id="ContentPlaceHolder1_galleryUrl" title="View in Inspiration Gallery" target="_blank">
+                                    <div id="ContentPlaceHolder1_galleryoverlaytext" class="overlay-text">
+                                        <img src='https://cdn.msisurfaces.com/images/inspiration-gallery.jpg' id="imgInspiration" alt="porcelain-inspiration-gallery" class="img-responsive box-shadow" />
+                                        <div class="overlay-Label btn btn-primary">INSPIRATION GALLERY ></div>
+                                    </div>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="os-popup" class="mfp-hide white-popup">
+        <div id="imgLoader" class="text-center">
+            <img src="https://cdn.msisurfaces.com/images/miscellaneous/loader.gif" alt="loader" />
+        </div>
+        <div class="os-popup-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Size</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="text-right">
+                <input id="btnAddtoCart" type="button" class="btn btn-primary" value="Add to Cart" />
+            </div>
+            <p id="info" style="padding: 17px;"></p>
+        </div>
+    </div>
+    <div id="osSlcnpopup" class="mfp-hide white-popup">
+        <div class="os-popup-body" style="background-color: #bf9b9b">
+            <p class="info" style="padding: 14px 15px; margin: 0"><span class="fa fa-check" style="margin-right: 5px; font-size: 24px;"></span><span class='text'></span><a href="/favorites/">View My Favorites.</a></p>
+            <div class="text-left note-text">
+                <a class="ancNote" style="cursor: pointer">
+                    <label class='fa fa-sticky-note' style='padding-right: 4px'></label>
+                    <span class="spanNote">Add a Note</span></a><div class='tArea  hidden'>
+                        <textarea class='ta-box form-control' id='ta_id' name='ta_' rows='3' maxlength='200'></textarea>
+                        <div class='pull-left space-bottom'><i><span>200</span> characters remaining</i></div>
+                        <div class='pull-right space-bottom'><a class='active ancCancel'>Cancel</a>|<a data-id='' class='SaveNote'>Save</a></div>
+                    </div>
+            </div>
+            <div class=" noteLabel note-text text-left">
+                <div class='lbl-note hidden'>
+                    <label class="noteLbl hidden"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/new-branding/js/OwlCarousel/owl.carousel.js?v=1.0"></script>
+    <link href="/new-branding/css/magnific-popup/magnific-popup.min.css?v=1.1" rel="stylesheet" />
+    <script src="/new-branding/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" charset="utf-8" defer></script>
+    <script src="/new-branding/js/scrollspy/jquery.simple-menu.min.js" defer></script>
+    <script src="/new-branding/js/product-detail/product-new.min.js?v=4.0"></script>
+    <script src="/new-branding/js/product-detail/social-sharing-new.min.js?v=1.2" defer></script>
+    <script type="text/javascript">
+        $('#hlsample').click(function (e) {
+            $('html, body').animate({ scrollTop: $('.sizes,.longitemidsizes').offset().top }, 'slow');
+        });
+        $(document).ready(function () {
+
+            var foursixty = document.getElementById("ContentPlaceHolder1_foursixty");
+            if (foursixty) {
+                var styles = $('#similar-styles');
+                var sizes = $('#item-sizes');
+                var tstyles = styles.clone();
+                var tsizes = sizes.clone();
+                if (!sizes.is(':empty') && !styles.is(':empty')) {
+                    styles.replaceWith(tsizes);
+                    sizes.replaceWith(tstyles);
+                }
+
+                var div1 = $('#ContentPlaceHolder1_sizes');
+                var div2 = $('#sstyles');
+
+                var tdiv1 = div1.clone();
+                var tdiv2 = div2.clone();
+
+                if (!div2.is(':empty') && !div1.is(':empty')) {
+                    div1.replaceWith(tdiv2);
+                    div2.replaceWith(tdiv1);
+
+                }
+            }
+            var iframesrc = $("#ContentPlaceHolder1_videoframe").attr("src");
+            if (iframesrc != null && iframesrc != "") {
+
+                $("#ContentPlaceHolder1_videoframe").addClass("videoborder");
+
+            }
+            else {
+                $("#divDetail").removeClass("hide");
+                $("#iframevideo").addClass("hide");
+                $("#ContentPlaceHolder1_videoframe").removeClass("videoborder");
+            }
+            $('.sticky-menu').simpleMenu({
+                stickyMenu: true,
+                slidingLine: true
+            });
+            var trimsname = '';
+            $('.lvt-sizes .lvt-trimspecs .specs-label-name b').each(function (index) {
+                trimsname = $(this).text();
+                trimsname = trimsname.replace('STAIR NOSE', 'STAIRNOSE');
+                $(this).html(trimsname);
+            });
+            
+
+        });
+        $("[id$='ancIndoorOutdoor']").click(function (e) {
+            var ancInOutText = $("[id$='ancIndoorOutdoor']").html();
+            console.log($("[id$='ancIndoorOutdoor']").text());
+            var minusht = $('.sticky-menu').outerHeight();
+
+            if (ancInOutText.indexOf("Interior") !== -1) {
+                $('html, body').animate({ scrollTop: $(".Tiles_Sizes").parent().offset().top - minusht }, 'slow');
+            }
+            if (ancInOutText.indexOf("Exterior") !== -1) {
+                $('html, body').animate({ scrollTop: $(".Pavers_Sizes").parent().offset().top - minusht }, 'slow');
+            }
+        });
+        $(document).on("click", ".mcs-item", function (e) {
+
+
+            if ($(this).children().attr("id") == "ancVideo" && $(this).children().attr("title") == "Slab Video") {
+                $("#ContentPlaceHolder1_videoframe").addClass("videoborder");
+                $("#divDetail").addClass("hide");
+                $("#iframevideo").removeClass("hide");
+            }
+            else {
+                console.log("hello1");
+                $("#divDetail").removeClass("hide");
+                $("#iframevideo").addClass("hide");
+                $("#ContentPlaceHolder1_videoframe").removeClass("videoborder");
+            }
+            //var $this = $(this);
+            // console.log($this);
+            //if ($("#ancVideo").length > 0) {
+            //    console.log($this);
+            //    $this.dblclick();
+            //}
+        });
+
+        $(document).on('click', '.divMore', function () {
+
+            var mzHouzz = $("[id$='mzpHouzz']").attr('id');
+
+            MagicZoom.expand(mzHouzz);
+        });
+        $(document).on("click", ".mz-button-close", function () {
+
+            var iframesrc = $("#ContentPlaceHolder1_videoframe").attr("src");
+            if (iframesrc != null && iframesrc != "") {
+                $("#ContentPlaceHolder1_videoframe").addClass("videoborder");
+                $("#divDetail").addClass("hide");
+                $("#iframevideo").removeClass("hide");
+            }
+            else {
+                $("#divDetail").removeClass("hide");
+                $("#iframevideo").addClass("hide");
+                $("#ContentPlaceHolder1_videoframe").removeClass("videoborder");
+            }
+        });
+        $(window).bind("pageshow", function (event) {
+            if (event.originalEvent.persisted) {
+                window.location.reload()
+            }
+        });
+    </script>
+    <style>
+        .imgIndoorOutdoor, .ancIndoorOutdoor {
+            width: 100%;
+            padding: 0;
+        }
+
+        .imgIndoorOutdoor {
+            width: 90px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(".fs-prepended-detail").unwrap();          
+            /* hiding Lvt Accessories linkage under Sizes section for waterproof Wood and Laminate Products*/
+            if (window.location.href.indexOf("/everlife-flooring/") > 0) {
+                $("[id$='ancLvtAcces']").css("display", "none");
+            }
+        });
+        $(function () {
+            $('#popover-zs').popover({
+                html: true,
+                content: function () {
+                    return $('#popover_content_wrapper').html();
+                }
+            });
+        })
+    </script>
+
+            <footer class="cust-hidden">
+                
+<style>
+.ancCancelfooter, .SaveNotefooter{
+cursor:pointer;
+
+}
+ #osSlcnpopup .os-popup-body p.info span:nth-child(2)
+    {
+       margin-right:10px;
+    }
+  @media (max-width:767px)
+{
+    #osSlcnpopup .os-popup-body p.info span:nth-child(2) + a
+    {
+        display: block
+    }
+}
+</style>
+<div class="copper-bar"></div>
+<hr />
+<div class="container-wrapper">
+    <div class="row">
+        <div class="footnav-container">
+            <div class="panel-default col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                <div class="panel-title">
+                    <label>Company</label>
+                </div>
+                <ul id="company" class="footnav">
+                    <li><a href="/corporate/company-profile.aspx">About MSI</a> </li>
+                     <li><a href="/corporate/company-history.aspx">Company History</a> </li>
+                   
+                     <li><a href="/corporate/guiding-statements.aspx">Our Guiding Statements</a> </li>
+                     <li><a href="/corporate/technology-innovation.aspx">Technology and Innovation</a> </li>
+                     <li><a href="/corporate/msi-partnering.aspx">Partnering with MSI</a> </li>
+                   <li><a href="/corporate/charitable-trust.aspx">MSI Charitable Trust</a></li>
+                  
+                    <li class="clearfix"><a href="/corporate/msi-environmental.aspx">Environmental</a></li>
+                   
+                </ul>
+            </div>
+            <div class="panel-default col-xs-6 col-sm-6 col-md-2 col-xl-2">
+                <div class="panel-title">
+                    <label>News</label>
+                </div>
+                <ul id="news" class="footnav">
+                    <li><a href="/news/events/msi-events/">Events</a> </li>
+                    <li><a href="/news/press-releases.aspx">Press Releases</a></li>
+                    <li><a href="/inthenews.aspx">In The News</a> </li>
+                    <li><a href="/news/newsletters.aspx">Newsletters & Announcements</a> </li>
+                </ul>
+            </div>
+            <div class="panel-default col-xs-6 col-sm-6 col-md-2 col-xl-2">
+                <div class="panel-title">
+                    <label>Careers</label>
+                </div>
+                <ul id="careers" class="footnav">
+                    <li><a href="/careers/">Join the Team</a></li>
+                </ul>
+            </div>
+             <div class="panel-default col-xs-6 col-sm-6 col-md-2 col-xl-2 service-link-left">
+                <div class="panel-title">
+                    <label>Services</label>
+                </div>
+                <ul id="services" class="footnav">
+                    <li><a href="https://b2b.msisurfaces.com/quickpay/quickpay.aspx">Online Bill Pay</a></li>
+                </ul>
+            </div>
+            <div class="panel-default col-xs-12 col-sm-12 col-md-12 col-xl-4 col-xl-offset-2">
+                <div class="signup-header">
+                    <label class="signup-title" for="txtEmail">Sign up for our Newsletter </label>
+                </div>
+                <div class="signup-container">
+                    <div class="input-group">
+                        <input type="text" id="txtEmail" class="form-control addon-right" placeholder="Email Address">
+                        <span class="input-group-btn">
+                            <button id="btnSend" class="btn btn-primary glyphicon glyphicon-send" type="button" onclick="openModal()" aria-label="Submit"></button>
+                        </span>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <div class="btt-container">
+                <div class="btn back-to-top"><i class="glyphicon glyphicon-menu-up"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="footer-bottom">
+    <div class="social-tools-container">
+        <div class="container-wrapper">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="msi-logo">
+                        <a aria-label="logo" href="/"><img class="img-responsive msi-logo" src="/new-branding/images/msi_logo_with_tagline.svg" alt="MSI Logo with Tagline" /></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8">
+                    <div class="social-tools">
+                        <div class="icon-container"><a class="facebook" href="https://www.facebook.com/msisurfaces/" aria-label="Facebook"></a></div>
+                       
+                          <div class="icon-container"><a class="twitter" href="https://twitter.com/msisurfaces/" aria-label="Twitter"></a></div>
+                        <div class="icon-container"><a class="pinterest" href="https://www.pinterest.com/msisurfaces/" aria-label="Pinterest"></a></div>
+                        <div class="icon-container-mobile">
+                           
+                            <div class="icon-container"><a class="instagram" href="https://www.instagram.com/msisurfaces/" aria-label="Instagram"></a></div>
+                            <div class="icon-container"><a class="youtube" href="https://www.youtube.com/user/msistoneandporcelain" aria-label="Youtube"></a></div>
+                            <div class="icon-container"><a class="houzz" href="https://www.houzz.com/professionals/countertop/msi-pfvwus-pf~59199526?" aria-label="Houzz"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="copyright-disclaimer">
+        <div class="container-wrapper">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul id="txt-align">
+                        <li><a href="/sitemap.aspx">Sitemap</a></li>
+                        <li><span class="seperator"></span></li>
+                        <li><a href="/helpful-links/click-sitemap-main.html">Deep Links</a></li>
+                        <li><span class="seperator"></span></li>
+                        <li><a href="/copyright-disclaimer.aspx">Copyright & Disclaimer</a></li>
+                        <li><span class="seperator"></span></li>
+                        <li><a href="/ccpa-privacy-notice.aspx">CA Privacy Notice</a></li>
+                        <li><span class="seperator"></span></li>
+                        <li><a href="/right-to-opt-out-notice.aspx">Do Not Sell My Personal Information</a></li>
+						<li><span class="seperator"></span></li>
+						<li><a href="/user-agreement.aspx">User Agreement</a></li>							
+                        <li id="msirights-text">
+                             <p class="copyright-text">M S International, Inc. All rights reserved.</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                           
+                        
+            </div>
+        </div>
+    </div>
+</div>
+<div id="osSlcnpopup" class="mfp-hide white-popup">
+    <div class="os-popup-body">
+        <p class="info" style="padding: 14px 15px; margin: 0"><span class="fa fa-check" style="margin-right: 5px; font-size: 24px;"></span><span class='text'></span><a href="/favorites/">View My Favorites.</a></p>
+        <div class='note-text text-left'>
+            <a class="ancNotefooter" style="cursor: pointer">
+                <label class='fa fa-sticky-note' style='padding-right: 4px'></label>
+                <span class="spanNotefooter">Add a Note</span></a>
+            <div class='tAreafooter  hidden'>
+                    <textarea class='ta-box form-control' id='ta_id' name='ta_' rows='3' maxlength='200'></textarea>
+                    <div class='pull-left space-bottom'><i><span>200</span> characters remaining</i></div>
+                    <div class='pull-right space-bottom'><a class='active ancCancelfooter'>Cancel</a>|<a data-id='' class='SaveNotefooter'>Save</a></div>
+                </div>
+        </div>
+		 <div class='div-notelbl note-text text-left'>
+        <div class=" noteLabelfooter hidden">
+            <label class="noteLblfooter hidden"></label>
+        </div>
+		</div>
+    </div>
+</div>
+<link href="/new-branding/css/magnific-popup/magnific-popup.min.css?v=1.0" rel="stylesheet" />
+    <script src="/new-branding/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+    function setSignUpFormHeight() {
+         var doc = $(window).height(); // document height
+        var head = $(".modal-header").height(); // modal header height
+        var footer = $(".modal-footer").height(); // modal footer height
+        var modheight = doc - head - footer - 90; // 65 is extra margins and it will not effect the height of modal any way if not changed.
+        $('.modal-body').css('height', modheight);
+    }
+    function openModal() {
+       
+        if ($('#txtEmail').val().length > 0) {
+            $('<div class="modal-backdrop"></div>').appendTo(document.body);
+            $('#myModal').slideDown('slow');
+            $('#myModal').addClass('in');               
+            setSignUpFormHeight();
+            $('input[name=EMAIL]').val($('#txtEmail').val());                 
+            $('#txtEmail').val('');
+            return false;
+        }
+       else if ($('#txtEmailBanner').length > 0 && $('#txtEmailBanner').val().length > 0) {
+            $('<div class="modal-backdrop"></div>').appendTo(document.body);
+            $('#myModal').slideDown('slow');
+            $('#myModal').addClass('in');
+            setSignUpFormHeight();
+            $('input[name=EMAIL]').val($('#txtEmailBanner').val());
+            $('#txtEmailBanner').val('');
+            return false;
+        }
+		else {
+                    alert('Please Enter Email Address');
+             }
+    }
+	
+   
+    function LazyLoad() {
+        if (window.IntersectionObserver) {
+            var config = { // If the image gets within 50px in the Y axis, start the download. 
+                rootMargin: '255px 0px', threshold: 0.1
+            };
+           
+            const imgObserver = new IntersectionObserver(showImage, config);			 
+            const images = document.querySelectorAll('img.lazy')
+            images.forEach(function (img) {
+			
+                imgObserver.observe(img);
+				
+				
+            })
+            function showImage(entries, observer) {
+                for (var i = 0; i < entries.length; i++) {
+                    var io = entries[i];
+                    if (io.isIntersecting && io.intersectionRatio > 0) {
+				
+                        var image = io.target, src = image.getAttribute("data-src"), srcSet = image.getAttribute("data-srcset");
+                          if($('img').hasClass("img-opacity"))
+                          {
+                            $('img').removeClass("img-opacity");
+                          }
+                        if (srcSet) { image.setAttribute("srcset", srcSet); }
+                        if (src) { image.setAttribute("src", src); }
+						
+                        // Stop watching and load the image
+                        observer.unobserve(io.target);
+                    }
+                }
+            }
+        }
+        else {
+            var lazyloadThrottleTimeout;
+            const lazyloadImages = document.querySelectorAll(".lazy");
+            function lazyload() {
+                if (lazyloadThrottleTimeout) {
+                    clearTimeout(lazyloadThrottleTimeout);
+                }
+                lazyloadThrottleTimeout = setTimeout(function () {
+                    var scrollTop = window.pageYOffset;
+                    for (let i = 0; i < lazyloadImages.length; i++) {
+                        var img = lazyloadImages[i], src = img.getAttribute("data-src"), srcSet = img.getAttribute("data-srcset")
+                        if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                            //console.log("lazy loading ", img)
+                            if (srcSet) { img.setAttribute("srcset", srcSet); }
+                            if (src) { img.setAttribute("src", src); }
+                        }
+                    }
+                    if (lazyloadImages.length == 0) {
+                        document.removeEventListener("scroll", lazyload);
+                        window.removeEventListener("resize", lazyload);
+                        window.removeEventListener("orientationChange", lazyload);
+                    }
+                }, 20);
+            }
+
+            document.addEventListener("scroll", lazyload);
+            window.addEventListener("resize", lazyload);
+            window.addEventListener("load", lazyload);
+            window.addEventListener("orientationChange", lazyload);
+
+        } 
+
+    }
+  
+    
+</script>
+
+
+
+<!--end-->
+
+<!--autocomplete-->
+<script src="/new-branding/js/autocomplete/jquery-ui-1.12.1.js"></script>
+<script>
+var arrBasket = [];
+
+    var product_id;
+    $(document).ready(function () {
+	LazyLoad();
+        $(".userway userway_p5").addClass("hide");
+        var isInIframe = (parent !== window);
+        $(document).find('header').removeClass('header-height');
+        if (isInIframe) {
+            $('.cust-hidden').addClass('hidden');
+        }
+        else {
+            $('.cust-hidden').removeClass('hidden');
+        }
+        $(function () {
+            $('#txtSearch').autocomplete({
+                source: function (request, response) {
+
+                                             
+                   var autocompleteUrl = '/autofill.asmx/GetProductName';
+                    $.ajax({
+                        type: 'POST',
+                        url: autocompleteUrl,
+                        data: "{'prefixText':'" + request.term + "'}",
+                        contentType: "application/json; charset=utf-8",
+                        dataType: 'json',
+                        success: function (json) {
+
+                            var arr = [];
+                            var i;
+                         
+                            response($.map(json, function (data, id) {
+
+
+                                
+                            
+                             for (i = 0; i < data.length; i++) {
+
+
+                                    arr.push({ "ProductName": data[i] });
+                                }
+                            
+
+                            }));
+
+
+                            response($.map(arr, function (data1, id) {
+
+
+                                return {
+                                    label: data1.ProductName,
+                                    value: data1.ProductName
+                                };
+
+
+                            }));
+                        },
+                        error: function (xmlHttpRequest, textStatus, errorThrown) {
+                            console.log('some error occured', textStatus, errorThrown);
+                        }
+                    });
+                },
+                minLength: 1,
+                select: function (event, ui) {
+                    $('#txtSearch').val(ui.item.label);
+                    return false;
+                }
+            }).data("ui-autocomplete")._renderItem = function (ul, item) {
+
+                
+                return $("<li>").append("<a target='blank' href='/material-selector/?key=" + item.label + "' >" + item.label + "</a>").appendTo(ul);
+            };
+        });
+		 getCartInfoforCollectionPage();
+    });
+
+  
+
+    
+
+    
+
+
+    var add_status = false;
+
+    function addtobasket(prdurl, _this) {
+        product_id = _this.split('slcn-')[1];
+        var obj = {};
+        obj.PageUrl = prdurl;
+        if (!$("#" + _this).hasClass("checked")) {
+            $("#" + _this).addClass("checked");
+        }
+        else {
+             add_status = true;
+        }
+        selection_status = $("#" + _this).hasClass("checked");
+        obj.slcn_status = selection_status;
+        $.ajax({
+            type: 'POST',
+            url: '/autofill.asmx/AddToSelectionCart',
+            data: JSON.stringify(obj),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            beforeSend: function () {
+                $('#info').html('');
+                $('#info').hide();
+                $('#imgLoader').show();
+                $(".os-popup-body").hide();
+                $('.tAreafooter textarea').val("");
+                $('.noteLblfooter').text(""); 
+            },
+            complete: function () {
+                getCartInfoforCollectionPage();
+                console.log('complete;');              
+                if (arrBasket.length > 0) {
+                    $.each(arrBasket, function (index, item) {
+                        console.log(item.ProductID.toString(), product_id);
+                        if (item.ProductID.toString() !== product_id) {
+                           
+                            $('.tAreafooter').addClass("hidden");
+                            if ($('.noteLblfooter ').text() !== null && $('.noteLblfooter ').text() !== '') {
+                                $('.noteLblfooter').removeClass("hidden");
+								 $('.noteLabelfooter').removeClass("hidden");
+                            } else {
+							console.log('hi');
+                                $('.noteLblfooter ').addClass("hidden");
+								 $('.noteLabelfooter ').addClass("hidden");
+                            }
+                            $('.spanNotefooter').text('Add a Note');
+                           
+                        }
+                        else {
+                            console.log(item.AdditionalNotes);
+                            if (item.AdditionalNotes) {
+                                console.log(1);
+                                $('.tAreafooter').addClass("hidden");
+                                $('.noteLblfooter').removeClass("hidden");
+								$('.noteLabelfooter').removeClass("hidden");
+                                $('.noteLblfooter ').text(item.AdditionalNotes);
+                                $('.spanNotefooter').text('Edit Note');
+                            }
+                            else{
+                                console.log(2);
+                                $('.tAreafooter').addClass("hidden");
+                                $('.noteLblfooter ').addClass("hidden");
+								$('.noteLabelfooter ').addClass("hidden");
+                                $('.spanNotefooter').text('Add a Note');
+                            }
+                             return false;
+                        }
+                    });
+                }
+                //else {
+                //    $('.tAreafooter').addClass("hidden");
+                //    $('.noteLblfooter ').addClass("hidden");
+                //    $('.spanNotefooter').text('Add a Note');
+                //}
+                $('#imgLoader').hide(); $(".os-popup-body").show();
+                //getCartInfo();
+            },
+            success: function (response) {
+                getCartInfoforCollectionPage();
+                console.log('success;'); 
+                if (add_status) {
+                    $('#osSlcnpopup p.info span.text').text("Item has been already added");
+                    $.magnificPopup.open({
+                        items: {
+                            src: '#osSlcnpopup'
+                        },
+                        type: 'inline'
+                    });
+                    $("#" + _this).prop('checked', true);
+                    $("#" + _this).addClass("checked");
+                }
+                else {
+                    $('#osSlcnpopup p.info span.text').text("Item added successfully");
+                    var favCount = parseInt($('#Header_lblFavCnt').text());
+                    if ($('#Header_lblFavCnt').text() == null || $('#Header_lblFavCnt').text() == '') {
+                        favCount = 0;
+                    }
+                    $('#Header_lblFavCnt').text(favCount + 1);
+                    $.magnificPopup.open({
+                        items: {
+                            src: '#osSlcnpopup'
+                        },
+                        type: 'inline'
+                    });
+                    add_status = true;
+                }
+            }
+        });
+    }
+
+    function getCartInfoforCollectionPage() {
+       
+        $.ajax({
+            type: 'POST',
+            url: '/autofill.asmx/GetSelectionCartInfo',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            complete: function () {
+            },
+            success: function (data) {
+                if (data.d != "") {
+                    var basket = JSON.parse(data.d);
+                    arrBasket = basket;
+                    $('.slcnCart .hearticon').each(function (idx, item) {
+                        var itm = $(this);
+                        if (basket.filter(e => e.ProductUrl === itm.attr('data-url')).length > 0) {
+                            $('#cb-slcn-' + $(this).attr('data-id')).prop('checked', true);
+                            $('#cb-slcn-' + $(this).attr('data-id')).addClass("checked");
+                            add_status = true;
+                        }
+                        else {
+                            add_status = false;
+                        }
+                    });
+                  
+                }
+                else {
+
+                }
+
+            }
+        });
+    }
+ var addnote ;
+    $(document).on('click', ".ancNotefooter", function (e) {
+        if ($('.tAreafooter').hasClass("hidden")) {
+            if ($('.tAreafooter').is(':visible')) {
+                $('.tAreafooter textarea').text($(this).parent().next().find('.noteLblfooter').text());
+            }
+            $('#osSlcnpopup .os-popup-body').addClass("pd-top");
+            $('.tAreafooter').toggleClass('hidden');
+            if ($('.tAreafooter').is(':visible')) {
+                $(this).parent().next().find('.noteLblfooter').addClass('hidden');
+            }
+			addnote = $(this).parent().next().find('.noteLblfooter').text();
+            if ($(this).parent().next().find('.noteLblfooter').length > 0) {
+                $('.tAreafooter textarea').val($(this).parent().next().find('.noteLblfooter').text());
+                $(this).parent().next().find('.noteLblfooter').removeClass('hidden');
+                 $(this).parent().next().find('.noteLabelfooter').removeClass('hidden');
+                if ($('.tAreafooter').is(':visible')) {
+                    $(this).parent().next().find('.noteLblfooter').addClass('hidden');
+                    $(this).parent().next().find('.noteLabelfooter').addClass('hidden');
+                }
+            }
+        }
+    });
+	$(document).on('keyup', 'textarea', function () {
+    $(this).parent().find('span').text(200 - $(this).val().length);
+    if ($(this).val().length == 200)
+        $(this).parent().find('i').css('color', 'red');
+});
+
+    $(document).on('click', 'a.SaveNotefooter', function () {
+        var obj = {};
+        obj.taVal = $(this).parent().parent().find('textarea').val();
+        var _this = $(this);
+        obj.tid = product_id;
+            obj.GuestId = null;
+        if (obj.taVal != null && obj.taVal != '') {
+           console.log(obj);
+            $.ajax({
+                type: 'POST',
+                url: '/autofill.asmx/updateSelectionCartInfo',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(obj),
+                complete: function () {
+                   
+                },
+                success: function (data) { 
+				_this.parent().parent().parent().next().find('.noteLabelfooter').removeClass('hidden');
+                    _this.parent().parent().parent().next().find('.noteLblfooter').removeClass('hidden').text(obj.taVal);
+                    _this.parent().parent().parent().find('a.ancNotefooter span.spanNotefooter').text('Edit Note');
+                    _this.parent().parent().parent().find('div.tAreafooter').addClass('hidden');
+                      getCartInfoforCollectionPage();
+                },
+                error: function (xhr) {
+                    console.log(xhr);
+                }
+            });
+        }
+        else {
+            _this.parent().parent().parent().find('a.ancNotefooter span.spanNotefooter').text('Add Note');
+            $('.noteLblfooter').addClass('hidden');
+            $('.noteLblfooter').length = 0;
+            $('.noteLblfooter').text('');
+          // $('.noteLabelfooter').addClass('hidden');
+              _this.parent().parent().parent().find('div.tAreafooter').addClass('hidden');
+            //_this.parent().parent().parent().find('div.tArea').addClass('hidden');
+        }
+    });
+	$(document).on('click', 'a.ancCancelfooter', function () {
+    //$(this).parent().parent().find('textarea').val('');
+    $(this).parent().parent().addClass('hidden');
+    if (addnote != "null" && addnote != '') {
+	console.log(true);
+        $('.noteLblfooter').text(addnote);
+        $('.noteLblfooter').removeClass('hidden');
+		$('.noteLabelfooter').removeClass('hidden');
+    }
+    else {
+	console.log(false);
+        $('.noteLblfooter').addClass('hidden');
+		$('.noteLabelfooter').addClass('hidden');
+    }
+});
+
+</script>
+
+
+<script type="text/javascript"> _linkedin_partner_id = "2973428"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2973428&fmt=gif" /> </noscript>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '451103522921935'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=451103522921935&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src="https://www.atmrum.net/rum.js"></script>
+<script>rum.start("a6c9128949730a6abb937a0dbbd10b00");</script>
+<script type="text/javascript" src="https://secure.hiss3lark.com/js/173033.js" defer></script>
+<noscript><img alt="" src="https://secure.hiss3lark.com/173033.png" style="display:none;" /></noscript>
+            </footer>
+        </div>
+    </form>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:992">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="modalclose()">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Subscribe to our MSI Monthly Newsletter</h4>
+                </div>
+                <div class="modal-body" style="overflow-y:auto;">
+                    <div id="mc_embed_signup">
+        <form action="https://msisurfaces.us19.list-manage.com/subscribe/post?u=745dc73a530ea7d0b52863c4a&amp;id=210ba8e786" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="ctct-custom-form Form validate" target="_blank" novalidate>
+             <p>Get the latest news on our newest offerings, updates, and industry news straight to your inbox!</p>
+            <div id="mc_embed_signup_scroll">
+                
+                
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">
+                        Email Address  <span class="asterisk">*</span>
+                    </label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"/>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">First Name </label>
+                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME"/>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-LNAME">Last Name </label>
+                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME"/>
+                </div>
+                <div class="mc-field-group input-group">
+                    <strong>Which of the following best describes you? </strong>
+                    <ul>
+                        <li><input  type="checkbox" value="1" name="group[4985][1]" id="mce-group[4985]-4985-0"/><label class="checkbox" for="mce-group[4985]-4985-0">Flooring Retailer/Dealer</label></li>
+                        <li><input  type="checkbox" value="2" name="group[4985][2]" id="mce-group[4985]-4985-1"/><label class="checkbox" for="mce-group[4985]-4985-1">Hardscape Retailer/Dealer</label></li>
+                        <li><input  type="checkbox" value="4" name="group[4985][4]" id="mce-group[4985]-4985-2"/><label class="checkbox" for="mce-group[4985]-4985-2">Designer</label></li>
+                        <li><input  type="checkbox" value="8" name="group[4985][8]" id="mce-group[4985]-4985-3"/><label class="checkbox" for="mce-group[4985]-4985-3">Kitchen &amp; Bath Dealer</label></li>
+                        <li><input  type="checkbox" value="16" name="group[4985][16]" id="mce-group[4985]-4985-4"/><label class="checkbox" for="mce-group[4985]-4985-4">Distributor</label></li>
+                        <li><input  type="checkbox" value="32" name="group[4985][32]" id="mce-group[4985]-4985-5"/><label class="checkbox" for="mce-group[4985]-4985-5">Fabricator</label></li>
+                        <li><input  type="checkbox" value="64" name="group[4985][64]" id="mce-group[4985]-4985-6"/><label  class="checkbox" for="mce-group[4985]-4985-6">Architect</label></li>
+                        <li><input  type="checkbox" value="128" name="group[4985][128]" id="mce-group[4985]-4985-7"/><label class="checkbox" for="mce-group[4985]-4985-7">Builder</label></li>
+                        <li><input  type="checkbox" value="256" name="group[4985][256]" id="mce-group[4985]-4985-8"/><label class="checkbox" for="mce-group[4985]-4985-8">Contractor/Installer</label></li>
+                        <li><input  type="checkbox" value="512" name="group[4985][512]" id="mce-group[4985]-4985-9"/><label class="checkbox" for="mce-group[4985]-4985-9">Homeowner</label></li>
+                        <li><input  type="checkbox" value="1024" name="group[4985][1024]" id="mce-group[4985]-4985-10"/><label class="checkbox" for="mce-group[4985]-4985-10">Hospitality</label></li>
+                        <li><input  type="checkbox" value="2048" name="group[4985][2048]" id="mce-group[4985]-4985-11"/><label class="checkbox" for="mce-group[4985]-4985-11">Other</label></li>
+                    </ul>
+                </div>
+                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn ctct-button btn-primary" /></div>
+            </div>
+        </form>
+    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    
+    <script>
+        function modalclose() {
+            $(".modal-backdrop").remove();
+            $("#myModal").slideUp("fast", function () {
+                    });
+            
+        }
+
+    
+
+       
+        $("#mc-embedded-subscribe").on('click', function () {
+            if ($('input[name = EMAIL]').length > 0) {
+                var emailtext = $('input[name = EMAIL]').val();
+                
+                 var atpos = emailtext.indexOf("@"),
+                dotpos = emailtext.lastIndexOf(".");
+         
+             if (atpos < 1 || (dotpos - atpos < 2)) {
+                
+                
+             }
+             else {
+                
+                 alert("Thank you for subscribing");
+                 modalclose();
+             }
+         
+
+                
+        }
+            
+        });
+
+        $('#txtEmail').on('keypress', function (event) {
+            if (event.which === 13) {
+                if ($(this).val().length > 0) {
+                     $('#myModal').slideDown('slow');
+						$('#myModal').addClass('in');
+						$('<div class="modal-backdrop"></div>').appendTo(document.body);
+						setSignUpFormHeight();
+						$('input[name=EMAIL]').val($('#txtEmail').val());
+						$('#txtEmail').val('');
+						return false;
+                }
+                else {
+                    alert('Please Enter Email Address');
+                }
+            }
+        });
+    </script>
+	 <!-- Begin Mailchimp Signup Form -->
+   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+   <!--end-->
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[5]='MMERGE5';ftypes[5]='zip';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+	<script type="text/javascript" src="https://www.roomvo.com/static/scripts/b2b/msi.js" async></script>
+	<!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        if (window.location.href.indexOf("ischat") > 0) {
+
+            console.log("chat icon disabled");
+        }
+        else {
+             var w = window;
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                function l() {
+                    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                    s1.src = 'https://embed.tawk.to/5de665d0d96992700fca8407/default';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+                }
+                if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            })();
+        }
+    </script>
+</body>
+</html>
