@@ -3,7 +3,18 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head id="Head1"><meta http-equiv="Content-Type" content="image/svg+xml; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" /><link rel="shortcut icon" href="https://www.msisurfaces.com/favicon.ico" type="image/x-icon" /><link href="/new-branding/css/msi-ui.min.css?v=1.3" rel="stylesheet" /><link href="/new-branding/css/shared.min.css?v=1.5" rel="stylesheet" /><link href="/new-branding/css/site.min.css?v=3.6" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500&amp;selection.subset=latin-ext" /><link href="/new-branding/css/mmenu/jquery.mmenu.min.css" rel="stylesheet" /><link href="/new-branding/css/mmenu/jquery.mmenu.dropdown.min.css?v=1.0" rel="stylesheet" />	
+<head id="Head1">
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Content-Type" content="image/svg+xml; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" />
+	<link rel="shortcut icon" href="https://www.msisurfaces.com/favicon.ico" type="image/x-icon" />
+	<link href="/new-branding/css/msi-ui.min.css?v=1.3" rel="stylesheet" />
+	<link href="/new-branding/css/shared.min.css?v=1.5" rel="stylesheet" />
+	<link href="/new-branding/css/site.min.css?v=3.6" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500&amp;selection.subset=latin-ext" />
+	<link href="/new-branding/css/mmenu/jquery.mmenu.min.css" rel="stylesheet" />
+	<link href="/new-branding/css/mmenu/jquery.mmenu.dropdown.min.css?v=1.0" rel="stylesheet" />	
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="/new-branding/js/mmenu/jquery.mmenu.min.js"></script>
     <script src="/new-branding/js/mmenu/jquery.mmenu.dropdown.min.js"></script>
@@ -290,7 +301,9 @@
         }
     </style>
 
-<meta name="keywords" content="Glass Stone blend, backsplash tile" /><meta name="description" content="Royal Oaks Blend Interlocking Pattern glass stone blend mosaic tile is comprised of cream and taupe glass tiles and rich marble to create an exotic look." /><link rel="canonical" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" /><link rel="alternate" hreflang="en-us" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" /><title>
+	<meta name="keywords" content="Glass Stone blend, backsplash tile" />
+	<meta name="description" content="Royal Oaks Blend Interlocking Pattern glass stone blend mosaic tile is comprised of cream and taupe glass tiles and rich marble to create an exotic look." /><link rel="canonical" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" /><link rel="alternate" hreflang="en-us" href="https://www.msisurfaces.com/glass-stone-blend-designs/royal-oaks-blend-interlocking/" />
+<title>
 	Royal Oaks  Glass and Stone Backsplash Tile
 </title></head>
 <body>
